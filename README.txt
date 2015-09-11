@@ -30,4 +30,4 @@ This produces output that correctly reflects tree structure in resulting csv tab
 The algorithm also produces header for such csv table, collecting nodenames all over the input file. 
 For the ongoing DBF convertion, all the column names are truncated to 10 chars limit and all duplicate column names are eliminated (truncated and enumerated).
 This script bundle has been created for those who is not able or does not want to learn XQuery, XSLT, XPath and the company on my recent job.
-Though, it seems too slow running to convert very big xml files (as for now, over 7000 xml nodes would take about 35 minutes to convert, this will produce over 35000 lines (4-6 same nodenames per a direct child of root) for the resulting DBF file)
+
